@@ -1,22 +1,16 @@
 import React from 'react';
 import './App.css';
+import Person from './Person/Person'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+      <p>
+        Save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Person name='Chris' age='43' />
+      <Person name='Jason' age='44'>I do strange things</Person>
+      <Person name='Marjory' age='45' />
     </div>
   );
 }
